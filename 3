@@ -1,0 +1,10 @@
+declare
+name varchar2(10);
+sal number(3);
+begin
+select First_Name, Salary into name, sal from Empolyees
+where Empolyee_id = 100;
+dbms_output.put_line(name);
+dbms_output.put_line(sal);
+end;
+/
