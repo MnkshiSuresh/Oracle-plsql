@@ -3,4 +3,4 @@
 programs from basics to complex
 
 
-resource: tutorials-point (yt)
+{resource: tutorials-point (yt)}
